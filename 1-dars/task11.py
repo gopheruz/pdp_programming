@@ -1,0 +1,8 @@
+# 11-masala
+num = int(input("3 xonali son: "))
+hundreds = num // 100
+tens = (num // 10) % 10
+ones = (num % 100) % 10
+
+result = hundreds + tens + ones
+print(f"raqamlar yig'indisi: {result}")

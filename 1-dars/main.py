@@ -5,5 +5,5 @@ BusPrice = int(input("Aftobus nechpul: "))
 busCount = int(input("Nechta aftobusda borasiz: "))
 
 TaxiPrice = destonation * TaxiPeerKM
-print(f"taxida Ketaolasizmi {TaxiPeerKM <= UserMoney}")
+print(f"taxida Ketaolasizmi {TaxiPrice <= UserMoney}")
 print(f"Aftobusda ketaolasizmi {UserMoney >= (BusPrice*busCount)}")

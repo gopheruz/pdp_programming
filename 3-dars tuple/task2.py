@@ -1,0 +1,5 @@
+numbers = (1, 2, 3, 4, 2, 5, 6, 2)
+count2 = numbers.count(2)
+print(count2)
+indexOf5 = numbers.index(5)
+print(indexOf5)

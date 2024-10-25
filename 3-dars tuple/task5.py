@@ -6,3 +6,7 @@ for i in (nested_tuple):
             print(j)
     else:
         print(i)
+
+_salom = "salom"
+
+print(_salom)   

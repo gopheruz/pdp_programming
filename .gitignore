@@ -1,0 +1,6 @@
+hikvision/
+__pycache__/
+hikvision.py
+cctv.py
+nvr.py
+test.py

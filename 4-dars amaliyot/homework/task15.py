@@ -1,0 +1,5 @@
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+positive_count = (a > 0) + (b > 0) + (c > 0)
+print(positive_count == 2)

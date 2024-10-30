@@ -1,3 +1,2 @@
-a = int(input("Yilini kiriting: "))
-
-print(a % 100 == 0  and a % 4 == 0 and a % 400 == 0 )
+yil = int(input("Yilni kiriting: "))
+print((yil % 4 == 0 and yil % 100 != 0) or (yil % 400 == 0))

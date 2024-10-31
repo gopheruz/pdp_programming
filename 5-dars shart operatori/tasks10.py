@@ -6,4 +6,3 @@ else:
     b , a = a + b
 print(a)
 print(b)
-

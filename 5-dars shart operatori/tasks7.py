@@ -1,7 +1,7 @@
 a = int(input("a: "))
 b = int(input("b: "))
 if a < b:
-    print(a)
+    print(1)
 else:
-    print(b)
+    print(2)
 

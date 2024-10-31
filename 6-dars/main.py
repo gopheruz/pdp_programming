@@ -275,3 +275,170 @@ if friends < 5:
     print("Do'stlar orttirishingiz mumkin")
 else:
     print("Do'stlar soni yetarli")
+
+
+# 37
+number = float(input("Sonni kiriting: "))
+if number > 0:
+    print("Bu musbat son.")
+elif number < 0:
+    print("Bu manfiy son.")
+else:
+    print("Bu nol.")
+
+# 38
+number = int(input("Sonni kiriting: "))
+if number % 2 == 0:
+    print("Bu juft son.")
+else:
+    print("Bu toq son.")
+
+# 39
+age = int(input("Yoshni kiriting: "))
+if 0 <= age <= 12:
+    print("Siz bolalarsiz.")
+elif 13 <= age <= 19:
+    print("Siz o'smirlar.")
+else:
+    print("Siz kattalarsiz.")
+
+# 40
+grade = input("Bahoni kiriting (A, B, C, D, F): ")
+if grade in ['A', 'B', 'C', 'D', 'F']:
+    print("Bu to'g'ri baho.")
+else:
+    print("Bu noto'g'ri baho.")
+
+# 41
+month = int(input("Oy raqamini kiriting (1-12): "))
+if month in [12, 1, 2]:
+    print("Bu qishda.")
+elif month in [3, 4, 5]:
+    print("Bu bahorda.")
+elif month in [6, 7, 8]:
+    print("Bu yozda.")
+elif month in [9, 10, 11]:
+    print("Bu kuzda.")
+else:
+    print("Noto'g'ri oy raqami.")
+
+# 42
+num1 = float(input("Birinchi sonni kiriting: "))
+num2 = float(input("Ikkinchi sonni kiriting: "))
+if num1 > num2:
+    print("Birinchi son katta.")
+elif num1 < num2:
+    print("Ikkinchi son katta.")
+else:
+    print("Ikki son teng.")
+
+# 43
+password = input("Parolni kiriting: ")
+if password == "mypassword":
+    print("Parol to'g'ri.")
+else:
+    print("Parol noto'g'ri.")
+
+# 44
+char = input("Bitta harfni kiriting: ")
+if char.isupper():
+    print("Bu katta harf.")
+elif char.islower():
+    print("Bu kichik harf.")
+else:
+    print("Bu harf emas.")
+
+# 45
+temperature = float(input("Havo haroratini kiriting: "))
+if temperature > 30:
+    print("Bu juda issiq.")
+elif 20 <= temperature <= 30:
+    print("Bu iliq.")
+elif 10 <= temperature < 20:
+    print("Bu sovuq.")
+else:
+    print("Bu juda sovuq.")
+
+# 46
+country = input("Mamlakatingizni kiriting: ")
+if country.lower() == "ozbekiston":
+    print("Siz O'zbekistondasiz.")
+
+# 47
+height = float(input("Balandlikni kiriting (sm): "))
+if height < 160:
+    print("Bu qisqa.")
+elif 160 <= height <= 180:
+    print("Bu o'rtacha.")
+else:
+    print("Bu baland.")
+
+# 48
+book_price = float(input("Kitob narxini kiriting: "))
+if book_price < 5000:
+    print("Bu arzon narx.")
+elif 5000 <= book_price <= 15000:
+    print("Bu o'rtacha narx.")
+else:
+    print("Bu qimmat narx.")
+
+# 49
+sport_level = input("Sport darajasini kiriting (yangi, o'rta, tajribali): ")
+if sport_level == "yangi":
+    print("Siz yangi sportchisiz.")
+elif sport_level == "o'rta":
+    print("Siz o'rta sportchisiz.")
+elif sport_level == "tajribali":
+    print("Siz tajribali sportchisiz.")
+else:
+    print("Noto'g'ri daraja.")
+
+# 50
+symptoms = input("Belgilaringizni kiriting (isitma, yo'tal): ")
+if "isitma" in symptoms:
+    print("Sizda isitma bor.")
+if "yo'tal" in symptoms:
+    print("Sizda yo'tal bor.")
+
+# 51
+credit_score = int(input("Kredit ballini kiriting: "))
+if credit_score >= 600:
+    print("Siz kredit olish uchun mos keldingiz.")
+else:
+    print("Siz kredit olish uchun mos kelmaysiz.")
+
+# 52
+order = input("Kafeda buyurtma bering (kofe, choy, sharbat): ")
+print(f"Buyurtma qabul qilindi: {order}")
+
+# 53
+speed = float(input("Avtomobil tezligini kiriting (km/soat): "))
+if speed > 80:
+    print("Tezlik oshirilgan.")
+else:
+    print("Tezlik normal.")
+
+# 54
+holiday = input("Ta'til vaqtini kiriting (yoz, qish): ")
+if holiday.lower() == "yoz":
+    print("Bu yoz ta'tili.")
+elif holiday.lower() == "qish":
+    print("Bu qish ta'tili.")
+else:
+    print("Noto'g'ri ta'til.")
+
+# 55
+school_grade = int(input("Maktab bahosini kiriting (1-5): "))
+if school_grade == 5:
+    print("Bu yuqori baho.")
+elif school_grade == 4:
+    print("Bu o'rtacha baho.")
+else:
+    print("Bu past baho.")
+
+# 56
+user_input = input("Raqamni kiriting: ")
+if user_input.isdigit():
+    print("Kiritilgan qiymat raqam.")
+else:
+    print("Kiritilgan qiymat raqam emas.")

@@ -441,4 +441,4 @@ user_input = input("Raqamni kiriting: ")
 if user_input.isdigit():
     print("Kiritilgan qiymat raqam.")
 else:
-    print("Kiritilgan qiymat raqam emas.")
+    print("Kiritilgan qiymat raqam emas.")  

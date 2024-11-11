@@ -32,6 +32,8 @@ while i < n:
     i += 1
 print("Yig'indisi:", yigindi)
 
+
+
 n = int(input("Nechta son kiritasiz: "))
 i = 0
 eng_katta = float('-inf')
@@ -44,6 +46,8 @@ print("Eng katta son:", eng_katta)
 
 n = int(input("Nechta son kiritasiz: "))
 i = 0
+
+
 eng_kichik = float('inf')
 while i < n:
     son = int(input("Son kiriting: "))

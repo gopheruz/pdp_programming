@@ -7,7 +7,7 @@ for i in range(1, input_row+1):
          ( j == 1 or j == input_column)
             or i == j
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -19,7 +19,7 @@ for i in range(1, input_row+1):
                 or (i == input_row and j != 1 and j != input_column)
                 or (j == input_column and i != input_row)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -33,7 +33,7 @@ for row in range(input_row):
                 or (col == input_column - 1 and row != 0 and row != input_row // 2 and row != input_row - 1)
                 or (row == input_row -1 and col == input_column - 1)
             ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -45,7 +45,7 @@ for i in range(1, input_row+1):
             or (i == j and j <= input_column // 2+1 and i <= input_row // 2+1)
             or ( j == (input_column - i + 1) and i <= input_row // 2+1 )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -57,7 +57,7 @@ for i in range(1, input_row+1):
                 or (i == input_row and j != 1 and j != input_column)
                 or (j == input_column and i != input_row)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -68,7 +68,7 @@ for i in range(1, input_row+1):
         if (
             j == 1 or j == input_column or i == input_row  // 2 +1
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -81,7 +81,7 @@ for row in range(input_row):
                 or (row == input_row // 2)
                 or (row != 0 and col == input_column - 1)
             ):
-            print("*", end="")
+            print("❤️", end="")
         else:
             print(end=" ")
     print()
@@ -93,7 +93,7 @@ for i in range(1, input_row+1):
             or (i == j and j <= input_column // 2+1 and i <= input_row // 2+1)
             or ( j == (input_column - i + 1) and i <= input_row // 2+1 )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -107,7 +107,7 @@ for i in range(1, input_row+1):
             or (i == j and j <= input_column // 2+1 and i <= input_row // 2+1)
             or ( j == (input_column - i + 1) and i <= input_row // 2+1 )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -120,7 +120,7 @@ for row in range(input_row):
                 or (row == input_row // 2)
                 or (row != 0 and col == input_column - 1)
             ):
-            print("*", end="")
+            print("❤️", end="")
         else:
             print(end=" ")
     print()
@@ -134,7 +134,7 @@ for row in range(input_row):
             or (row == input_row - 1 and col < input_column -1)
 
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -145,7 +145,7 @@ for i in range(1, input_row+1):
              (i == j )
             or ( j == (input_column - i + 1)  )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -158,7 +158,7 @@ for i in range(1, input_row+1):
             or ( j == input_column and i != 1 and i != input_row)
             or (i == input_row and j != 1 and j != input_column)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -169,7 +169,7 @@ for i in range(1, input_row+1):
          ( j == 1 or j == input_column)
             or i == j
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -180,7 +180,7 @@ for i in range(1, input_row+1):
              (i == j )
             or ( j == (input_column - i + 1)  )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -193,7 +193,7 @@ for row in range(input_row):
                 or (row == input_row // 2)
                 or (row != 0 and col == input_column - 1)
             ):
-            print("*", end="")
+            print("❤️", end="")
         else:
             print(end=" ")
     print()
@@ -209,7 +209,7 @@ for i in range(1, input_row+1):
             or (j == input_column  and i > input_row //2 )
             or i == input_row
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -222,7 +222,7 @@ for row in range(input_row):
                 or (row == input_row // 2)
                 or (row != 0 and col == input_column - 1)
             ):
-            print("*", end="")
+            print("❤️", end="")
         else:
             print(end=" ")
     print()
@@ -234,7 +234,7 @@ for i in range(1, input_row+1):
          ( j == 1 or j == input_column)
             or i == j
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -247,7 +247,7 @@ for i in range(1, input_row+1):
             or ( j == input_column and i != 1 and i != input_row)
             or (i == input_row and j != 1 and j != input_column)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -258,7 +258,7 @@ for i in range(1, input_row+1):
              (i == j and j <= input_column // 2+1 and i <= input_row // 2+1)
             or ( j == (input_column - i + 1) and i <= input_row // 2+1 )
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -272,7 +272,7 @@ for i in range(1, input_row+1):
                 or (i == input_row and j != 1 and j != input_column)
                 or (j == input_column and i != input_row)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -284,7 +284,7 @@ for i in range(1, input_row+1):
           (j == 1 or i == input_row)
             or (i == input_row -1 and j == input_column)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -298,7 +298,7 @@ for i in range(1, input_row + 1):
                 or (i == input_row and j != 1 and j != input_column)
                 or (j == input_column and i != input_row)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -315,7 +315,7 @@ for i in range(1, input_row+1):
            or (j == (input_column // 2) + 1 and i == (input_row // 2) + 1)
 
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -330,7 +330,7 @@ for row in range(input_row):
             or (row == input_row // 2 and col != input_column - 1)
             or (col == input_column - 1 and row != 0 and row != input_row // 2 and row != input_row - 1)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -344,7 +344,7 @@ for row in range(input_row):
             or (row == input_row // 2 and col != input_column - 1)
 
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -356,7 +356,7 @@ cols = input_column
 for i in range(rows):
     for j in range(cols):
         if j == 0 or (i < rows // 2 and j == cols - 2 - i) or (i >= rows // 2 and j == i - (rows // 2)):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -372,7 +372,7 @@ for i in range(1, input_row+1):
             or ( j == input_column and i != 1 and i != input_row)
             or (i == input_row and j != 1 and j != input_column)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -388,7 +388,7 @@ for i in range(1, input_row+1):
            or (j == (input_column // 2) + 1 and i == (input_row // 2) + 1)
 
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -399,7 +399,7 @@ for i in range(1, input_row+1):
           (j == 1 or i == input_row)
             or (i == input_row -1 and j == input_column)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()
@@ -413,7 +413,7 @@ for i in range(1, input_row+1):
             or
             (i == input_row and j != 1 and j != input_row)
         ):
-            print("*", end=" ")
+            print("❤️", end=" ")
         else:
             print(" ", end=" ")
     print()

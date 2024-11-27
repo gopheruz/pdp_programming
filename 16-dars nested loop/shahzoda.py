@@ -129,6 +129,7 @@ for i in range(n, 0, -1):
     pattern += "\n"
 
 letters.append(pattern)
+print(letters)
 final_output = ""
 for lines in zip(*[letter.splitlines() for letter in letters]):
     final_output += "   ".join(lines) + "\n"

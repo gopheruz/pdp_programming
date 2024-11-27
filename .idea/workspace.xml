@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="793aedeb-ee5c-441f-8f7f-3cebc2f5c8c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/16-dars nested loop/masalalar/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/Ibo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/iroda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/muhammadaziz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/shohjahon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/ulugbeku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-dars_amaliy/ulugubek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-dars-amaliy/binarysearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-dars_amaliy_for_while/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pdp_programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pdp_programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task14.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task15.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task16.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task17.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task18.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task19.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-dars/1.1/task21.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-dars/1.1/task21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-dars nested loop/Nurmuhammad.py" beforeDir="false" afterPath="$PROJECT_DIR$/16-dars nested loop/Nurmuhammad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16-dars nested loop/name.py" beforeDir="false" afterPath="$PROJECT_DIR$/16-dars nested loop/name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-dars_amaliy_for_while/son_top.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-dars_amaliy_for_while/son_top.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-dars_amaliy_for_while/traffic_light.py" beforeDir="false" afterPath="$PROJECT_DIR$/19-dars_amaliy_for_while/traffic_light.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +86,7 @@
       <workItem from="1732256437985" duration="5000" />
       <workItem from="1732256516441" duration="42000" />
       <workItem from="1732266210839" duration="1370000" />
+      <workItem from="1732561264926" duration="410000" />
     </task>
     <servers />
   </component>

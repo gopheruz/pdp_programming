@@ -1,69 +1,43 @@
-parking_zone = [
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-]
+n = int(input("Garage o'lchamini kiriting: "))
+
+a = [[0] * n for i in range(n)]
 
 while True:
-    print("\nHozirgi parkovka holati:")
-    for i in parking_zone:
-        for j in i:
-            print(j, end=" ")
-        print()
+    car_name = input("Mashina nomini kiriting: ")
 
-    door = int(input("Qaysi eshikdan kirmoqchisiz? (1 yoki 2): "))
-    if door == 1:
-        startrow = 0
-        startcol = 0
-        row_step = 1
-        col_step = 1
-    elif door == 2:
-        startrow = 9
-        startcol = 9
-        row_step = -1
-        col_step = -1
+    col = int(input("Ustunni kiriting: ")) - 1
+    row = int(input("Qatorni kiriting: ")) - 1
+
+    if a[row][col] == 0:
+        a[row][col] = car_name
     else:
-        print("Xato tanlov! Iltimos, 1 yoki 2 kiriting.")
+        empty_rows = []
+        empty_cols = []
+        distances = []
+
+        for i in range(n):
+            for j in range(n):
+                if a[i][j] == 0:
+                    empty_rows.append(i)
+                    empty_cols.append(j)
+                    distance = abs(i - row) + abs(j - col)
+                    distances.append(distance)
+
+        if 0 in distances:
+            distances.remove(0)
+
+        min_distance = min(distances)
+
+        if min_distance > 5:
+            continue
+
+        while min_distance == min(distances):
+            index = distances.index(min_distance)
+            distances.pop(index)
+            print("Siz hozirda bu yerga mashina qo'ya olmaysiz, mana bu koordinatalarga mashina qo'ysangiz bo'ladi:")
+            print(empty_rows[index] + 1, empty_cols[index] + 1)
+        print(f"Bu yerda {a[row][col]} bor")
         continue
 
-    row = int(input("Manzil qatori (1-10): ")) - 1
-    col = int(input("Manzil ustuni (1-10): ")) - 1
-
-    if parking_zone[row][col] == 0:
-        car_name = input("Mashina nomini kiriting: ")
-        parking_zone[row][col] = car_name
-        print(f"{car_name} mashinasi ({row+1}, {col+1}) joyga qo'yildi.")
-    else:
-        print(f"({row+1}, {col+1}) manzilida {parking_zone[row][col]} mashinasi turibdi.")
-        found = False
-        r = startrow
-        while 0 <= r < 10 and not found:
-            c = startcol
-            while 0 <= c < 10:
-                if parking_zone[r][c] == 0:
-                    print(f"Tavsiya qilingan joy: ({r+1}, {c+1})")
-                    car_name = input("Mashina nomini kiriting: ")
-                    parking_zone[r][c] = car_name
-                    print(f"{car_name} mashinasi ({r+1}, {c+1}) joyga qo'yildi.")
-                    found = True
-                    break
-                c += col_step
-            r += row_step
-        if not found:
-            print("Parking zona to'lgan! Bo'sh joylar yo'q.")
-
-    continue_parking = input("Mashinalarni joylashda davom etasizmi? (ha/yo'q): ").lower()
-    if continue_parking != "ha":
-        break
-print("\nOxirgi parkovka holati:")
-for row in parking_zone:
-    for cell in row:
-        print(cell, end=" ")
-    print()
+    for row in a:
+        print(*row)

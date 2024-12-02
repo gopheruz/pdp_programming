@@ -12,4 +12,4 @@ def binary_search(lst, item):
             low = mid + 1
         else:
             high = mid - 1
-print(binary_search([1,2,3,4,5,6,7,8,9], 7))
+print(binary_search([i for i in range(100)], 7))

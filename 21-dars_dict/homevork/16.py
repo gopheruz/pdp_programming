@@ -51,9 +51,25 @@ cities_population = {
     "Oqqo‘rg‘on": 103000,
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 items = list(cities_population.items())
+
+print(items)
 for k, v in cities_population.items():
     print(f"{k}: {v}")
+
 for i in range(len(items)):
     for j in range(len(items) - i - 1):
         if items[j][1] > items[j + 1][1]:
@@ -61,6 +77,8 @@ for i in range(len(items)):
 
 sorted_data = dict(items)
 
-print("\n\n#############################   Sorted Data   ####################################\n\n")
+
+print("\n\n   tartiblangan   \n")
+
 for k, v in sorted_data.items():
     print(f"{k}: {v}")

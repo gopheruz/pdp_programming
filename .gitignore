@@ -1,7 +1,4 @@
-hikvision/
-__pycache__/
-hikvision.py
-cctv.py
-nvr.py
-test.py
-test/
+test/ 
+node_modules/
+frontend/
+sardor/

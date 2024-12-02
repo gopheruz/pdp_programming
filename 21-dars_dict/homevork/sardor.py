@@ -1,3 +1,4 @@
+import os
 parking_zone = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -14,6 +15,7 @@ parking_zone = [
 
 
 while True:
+    os.system("clear")
     print("Hozirgi Holati\n")
 
     for i in parking_zone:

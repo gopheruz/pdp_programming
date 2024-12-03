@@ -3,3 +3,4 @@ node_modules/
 frontend/
 sardor/
 __pycache__/
+.idea/

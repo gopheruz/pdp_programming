@@ -1,4 +1,3 @@
-
 def powerA234(a, p):
     if p == 2:
         return a * a

@@ -1,4 +1,4 @@
-parking_zone = [
+""""parking_zone = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -39,7 +39,8 @@ while True:
                 start_col += 1
             start_row += 1
 
-    print("\n\n")
+    print("\n\n")"""
+
 
    
 

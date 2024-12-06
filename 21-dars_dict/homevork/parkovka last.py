@@ -30,7 +30,6 @@ while True:
     else:
         print(f"\nBu yerda {parking_zone[row][col]} mashinasi turibdi.")
         print("Quyidagi joylar sizga eng yaqinlari:")
-        
         empty_spaces = []
         for i in range(n):
             for j in range(n):

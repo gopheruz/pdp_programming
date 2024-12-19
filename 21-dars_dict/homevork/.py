@@ -1,4 +1,4 @@
-# 50 ta shahar va aholisi lug'ati
+
 cities_population = {
     "Toshkent": 2737000,
     "Samarqand": 1143000,
@@ -50,8 +50,78 @@ cities_population = {
     "Bektemir": 55000,
     "Yangibozor": 61000,
     "Oqqo‘rg‘on": 103000,
+    "New York": 8175133,
+    "Los Angeles": 3792621,
+    "Chicago": 2695598,
+    "Houston": 2327463,
+    "Phoenix": 1690000,
+    "Philadelphia": 1584200,
+    "San Antonio": 1551000,
+    "San Diego": 1423851,
+    "Dallas": 1343573,
+    "San Jose": 1035317,
+    "London": 8908081,
+    "Berlin": 3669491,
+    "Madrid": 3223334,
+    "Rome": 2872800,
+    "Paris": 2140526,
+    "Istanbul": 15462452,
+    "Moscow": 12506468,
+    "Tokyo": 13929286,
+    "Seoul": 9776000,
+    "Beijing": 21540000,
+    "Shanghai": 24240000,
+    "Mumbai": 12442373,
+    "Jakarta": 10550000,
+    "Bangkok": 8305218,
+    "Karachi": 15741000,
+    "Cairo": 9842000,
+    "Lagos": 14000000,
+    "Johannesburg": 5747000,
+    "Sydney": 5312163,
+    "Melbourne": 5078193,
+    "Toronto": 2731571,
+    "Vancouver": 631486,
+    "Mexico City": 9209944,
+    "Sao Paulo": 12325232,
+    "Rio de Janeiro": 6748000,
+    "Buenos Aires": 2890151,
+    "Lima": 8773101,
+    "Santiago": 5743719,
+    "Bogota": 7858400,
+    "Caracas": 2821256,
+    "Havana": 2141652,
+    "Quito": 2011388,
+    "Manila": 1780148,
+    "Hanoi": 8005377,
+    "Kuala Lumpur": 1803452,
+    "Singapore": 5453600
 }
 
-key = input("kalitni kiriting: ")
 
-print(cities_population.get(key, "Bunday kalit topilmadi"))
+def sortDict(data):
+    data = list(data.items())
+    for i in range(len(data)):
+        for j in range(len(data)-1-i):
+            if data[j][1] > data[j+1][1]:
+              data[j], data[j+1] = data[j+1], data[j]
+    return dict(data)
+
+
+
+sorted_cities_population = sortDict(cities_population)
+
+for k, v in sorted_cities_population.items():
+    print(k, v)
+
+
+
+
+
+
+
+
+
+
+
+

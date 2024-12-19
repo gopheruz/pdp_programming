@@ -1,0 +1,1 @@
+defaultmoney=4499139

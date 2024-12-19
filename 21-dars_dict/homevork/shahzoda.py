@@ -10,17 +10,13 @@
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 ]
-
-
 while True:
     for i in parking_zone:
         for j in i:
             print(j, end=" ")
         print()
-
     row = int(input("r: ")) -1
     col = int(input("c: ")) -1
-
     car_name = input("car name: ")
     if parking_zone[row][col] == 0:
         parking_zone[row][col] = car_name
@@ -38,9 +34,4 @@ while True:
                     break
                 start_col += 1
             start_row += 1
-
     print("\n\n")"""
-
-
-   
-
